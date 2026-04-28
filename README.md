@@ -1,25 +1,23 @@
 <!DOCTYPE html>
 <html>
+<head>
+    <title>SITE</title>
+</head>
     <body>
-        <!-- Header Section -->
-        <div>
-            <h1>ALICE SILVA PEREIRA</h1>
-            <p>Support Team | Programming student<p>
-        </div>
-        
-        <!-- Profile Picture -->
-        <div>
-            <img src="https://storage.googleapis.com/coddy-15505.appspot.com/public/avatars/avatar25.png" alt="My profile picture" width="200" height="200" />
-        </div>
-        
-        <!-- About Me Section -->
-        <div>
-            <h2>About Me</h2>
-            <p>Hello! I'm Alice and I am 13 years old. I'm a programming student, i gonna be a Developer Full-Stack, be a support for my team and act in different areas on project!</p>
-        </div>
-        <div>
-            <h2>Connect with Me</h2>
-            <a href = "https://github.com/AliceSilva2012" target="_blank"> My GitHub </a>
-        </div>
+        <h1>YOUR ACCOUNT</h1>
+        <p>Faça o login da sua conta</p>  
+        <hr>        
+        <form>
+            <h2>Entrar</h2>
+            <input type= "text" name= "email" placeholder= "Enter your e-mail" maxlength= "30">
+             <p>Opa! Não tem uma conta? <a href="#">Crie uma!</a> </p>
+                <br>
+            <h2>Insira a senha</h2>
+            <input type= "password" name= "passwordfield" placeholder= "Enter your password" maxlength= "10">
+            <p>Esqueceu a senha? Clique aqui! <a href="#">Esqueci minha senha!</a> </p>
+            <button type= "submit"> 
+                <strong>Entrar</strong>
+            </button>
+        </form>         
     </body>
 </html>
