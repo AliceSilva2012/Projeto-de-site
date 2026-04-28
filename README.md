@@ -3,7 +3,7 @@
     <body>
         <!-- Header Section -->
         <div>
-            <h1>ALICE S.P.</h1>
+            <h1>ALICE SILVA PEREIRA</h1>
             <p>Support Team | Programming student<p>
         </div>
         
